@@ -36,6 +36,6 @@ We also were required to implement the following built in commands:
  - Usage of `builtin commands` of bash
 
 ## How to use it
-Clone the repo and cd into it. Before running `make` make sure that you have `readline library` installed as it's used for reading input and managing the history of commands. If after running `make` readline is not found change the in `READLINE_INC` and `READLLINE_LIB` variables in the `Makefile` to include the correct paths. After compilation simply run `./minishell` and the shell will start, from that point on you're using our version of shell and the rules from [The goal of the project](https://github.com/Doush-H/minishell/edit/main/README.md#the-goal-of-the-project) apply.
+Clone the repo and cd into it. Before running `make` make sure that you have `readline library` installed as it's used for reading input and managing the history of commands. If after running `make` readline is not found change the in `READLINE_INC` and `READLLINE_LIB` variables in the `Makefile` to include the correct paths. After compilation simply run `./minishell` and the shell will start, from that point on you're using our version of shell and the rules from [The goal of the project](https://github.com/Doush-H/minishell#the-goal-of-the-project) apply.
 
 _This implementation is not perfect by any means and does contain bugs. ❗_
